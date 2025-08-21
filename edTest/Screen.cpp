@@ -14,5 +14,6 @@ void Screen::DoScreenStuff()
 
 void Screen::OnEvent(const Event& e)
 {
+	// handle the event
 	std::cout << e.Name << " " << e.Data << std::endl;
 }

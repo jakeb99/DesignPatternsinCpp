@@ -5,6 +5,6 @@ class UIWindow
 {
 public:
 	UIWindow();
-	void DoThings();
+	void DoUIThings();
 };
 

@@ -13,5 +13,5 @@ int main()
 	UIWindow uiwindow;
 
 	screen.DoScreenStuff();
-	uiwindow.DoThings();
+	uiwindow.DoUIThings();
 }

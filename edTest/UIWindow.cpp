@@ -6,7 +6,7 @@ UIWindow::UIWindow()
 {
 }
 
-void UIWindow::DoThings()
+void UIWindow::DoUIThings()
 {
 	// create event
 	Event e("UIEvent", 12);
