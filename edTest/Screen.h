@@ -10,5 +10,7 @@ public:
 	void DoScreenStuff();
 private:
 	void OnEvent(const Event& e);
+	void OnButtonEvent(const ButtonEvent& btnEvent);
+	void OnSliderEvent(const SliderEvent& btnEvent);
 };
 
