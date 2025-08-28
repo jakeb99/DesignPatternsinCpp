@@ -1,4 +1,5 @@
 #include "Screen.h"
+#include "Log.h"
 
 Screen::Screen()
 {
@@ -8,6 +9,8 @@ void Screen::DoScreenStuff()
 {
 	// subscribe to events
 	EventDispatcher::GetInstance().SubscribeToEvent([this](const Event& e) {
+		Log::Debug(e.type()); 
+		Log::Error(e.type()); 
 		if (e.type() == ButtonEvent::descriptor)
 		{
 			const ButtonEvent& btnEvent = static_cast<const ButtonEvent&>(e);

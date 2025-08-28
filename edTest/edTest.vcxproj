@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Event.cpp" />
     <ClCompile Include="EventDispatcher.cpp" />
+    <ClCompile Include="Log.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="UIWindow.cpp" />
     <ClCompile Include="main.cpp" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Event.h" />
     <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="Log.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="UIWindow.h" />
   </ItemGroup>
